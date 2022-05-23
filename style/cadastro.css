@@ -1,0 +1,55 @@
+main{
+    font-style: normal;
+    font-family: 'Arial', Times, serif;
+}
+
+main h2{
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+main p{
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.box{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.container-form{
+    width: 50%;
+    margin-top: 50px;
+    padding-top: 20px;
+    background: #35373a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.itemC{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-left: 20px;
+}
+
+.containerBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.g-recaptcha{
+    margin: 10px
+}
+
+.btn{
+    width: 100px;
+    background: red;
+    padding: 10px;
+    border-radius: 10px;
+}
